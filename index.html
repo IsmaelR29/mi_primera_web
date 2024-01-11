@@ -3,41 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Mi Portafolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0aa5ed;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: rgb(234, 93, 98);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        .project {
+            margin-bottom: 1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
 
     <header>
-        <h1>Mi Página Web</h1>
+        <h1>Mi Portafolio</h1>
+        <p>Bienvenido a mi espacio creativo</p>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#acerca">Acerca de</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
-
-    <section id="inicio">
-        <h2>Bienvenido a Mi Página Web</h2>
-        <p>Esta es una página web de ejemplo.</p>
+    <section>
+        <h2>Sobre mí</h2>
+        <p>¡Hola! Soy Ismael Romo Quintero, un apasionado de [tu campo de interés]. Estoy comprometido/a con la excelencia y siempre en busca de nuevos desafíos y oportunidades para crecer profesionalmente.</p>
     </section>
 
-    <section id="acerca">
-        <h2>Acerca de Mí</h2>
-        <p>¡Hola! Soy Ismael Romo y esto es un poco sobre mí.</p>
-    </section>
+    <section>
+        <h2>Proyectos</h2>
+        <div class="project">
+            <h3>Proyecto 1</h3>
+            <p>Descripción del Proyecto 1. Puedes agregar detalles sobre las tecnologías utilizadas, tu papel en el proyecto y los resultados obtenidos.</p>
+        </div>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Puedes contactarme en [tu@email.com].</p>
+        <div class="project">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del Proyecto 2. Puedes agregar detalles sobre las tecnologías utilizadas, tu papel en el proyecto y los resultados obtenidos.</p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Mi Página Web</p>
+        <p>Contacto: ismaelromo95@hotmail.com</p>
     </footer>
 
 </body>
 </html>
+
